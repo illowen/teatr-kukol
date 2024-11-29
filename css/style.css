@@ -616,15 +616,6 @@ h1, h2, h3, h4, h5, h6 {
   background: url('../img/poster/poster_decor.png') no-repeat;
   background-size: cover;
 }
-.poster_content:after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 12px;
-  background: url('../img/poster/poster_decor.png') no-repeat;
-  background-size: cover;
-}
 .poster_block {
   width: 20.4%;
   padding: 22px;
