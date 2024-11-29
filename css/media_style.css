@@ -532,6 +532,15 @@
 }
 
 @media screen and (max-width: 769px) {
+    .lang a {
+        display: block;
+        padding: 5px 0 10px;
+        font-size: 12px;
+        background-position: 50% 100%;
+    }
+    .lang a.show {
+        background-position: 50% 100%;
+    }
     .about_block span {
         font-size: 54px;
         padding-right: 14px;
@@ -692,6 +701,10 @@
     }
     .reviews_block {
         width: 43%;
+    }
+
+    .footer .social {
+        column-gap: 8px;
     }
 }
  
@@ -912,6 +925,12 @@
     }
     .reviews_form {
         max-width: 100%;
+    }
+
+    .news_btn_link {
+        position: relative;
+        top: 14px;
+        right: 0;
     }
 }
 
