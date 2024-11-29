@@ -1,0 +1,928 @@
+@media screen and (max-width: 1920px) {
+
+}
+
+@media screen and (max-width: 1790px) {
+    .contacts_decor_img2 {
+        top: auto;
+        bottom: 0;
+    }
+    .contacts_decor_img2 img {
+        width: 90px;
+    }
+    .contacts_decor_img3 {
+        top: auto;
+        right: 10px;
+        bottom: 0;
+    }
+    .album_teater_decor_img1 {
+        top: 0;
+        left: 0;
+    }
+    .album_teater_decor_img1 img {
+        width: 120px;
+    }
+    .album_teater_decor_img2 {
+        right: -2%;
+    }
+    .album_teater_decor_img2 img {
+        width: 196px;
+    }
+
+    .reviews_decor_img1 {
+        top: -4vw;
+        left: 2%;
+    }
+    .reviews_decor_img2 {
+        top: -4vw;
+        right: 8%;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .header .search input,
+    .footer .search input {
+        display: none;
+    }
+    .header_wrap {
+        width: auto;
+        column-gap: 2vw;
+    }
+
+    .poster_decor {
+        top: 10%;
+    }
+    .poster_decor img {
+        max-width: 150px;
+    }
+
+    .album_teater_decor {
+        top: -126px;
+    }
+
+    .about_decor_img1 {
+        left: 0;
+    }
+    .about_decor_img1 img {
+        width: 120px;
+    }
+
+    .about_decor_img2 {
+        right: 0;
+    }
+    .about_decor_img2 img {
+        width: 120px;
+    }
+
+    .about_decor_img3 {
+        left: 0;
+    }
+    .about_decor_img3 img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .container {
+        max-width: 100%;
+        width: auto;
+    }
+
+    .poster_block {
+        width: 22%;
+        padding: 12px 1vw;
+    }
+    .social a b {
+        display: none;
+    }
+    .social a p {
+        display: none;
+    }
+
+    .about_children_offer_img {
+        right: 0;
+        bottom: -110px;
+        transform: none;
+        max-width: 190px;
+    }
+    .about_children_offer_img img {
+        width: 100%;
+    }
+    .about_children_decor img:nth-child(1) {
+        position: absolute;
+        left: 0;
+        top: -5vw;
+        z-index: -1;
+        max-width: 168px;
+    }
+    .about_children_img {
+        position: relative;
+    }
+    .about_children_block_text {
+        max-width: initial;
+    }
+
+    .news_page_decor_img img {
+        max-width: 120px;
+    }
+
+    .reviews_content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .poster_block {
+        width: 30%;
+    }
+
+    .album_teater_block {
+        width: 32%;
+    }
+
+    .advantages_block_item {
+        font-size: 15px;
+    }
+    .advantages_block_title {
+        font-size: 14px;
+    }
+    .about_decor_img2 {
+        top: -12vw;
+    }
+    .about_block span {
+        font-size: 90px;
+    }
+    .about_block p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .about_text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .about_block.about_block1 {
+        transform: none;
+    }
+    .about_block.about_block2 {
+        transform: none;
+    }
+    .about_offers p {
+        font-size: 24px;
+    }
+    .about_decor_img3 {
+        bottom: 0;
+    }
+    .advantages {
+        flex-wrap: wrap;
+    }
+    .advantages_block {
+        width: 46%;
+    }
+
+    .reviews_content {
+        width: 64%;
+    }
+    .reviews_block {
+        width: 43%;
+    }
+}
+
+
+@media screen and (max-width: 1178px) {
+    .menu {
+        position: absolute;
+        bottom: 100%;
+    }
+    .about_children_wrap_head {
+        font-size: 14px;
+    }
+
+    .contacts_page_left_block {
+        width: 100%;
+    }
+    .contacts_page_form {
+        padding: 26px 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .poster_block_item {
+        font-size: 16px;
+        min-height: 58px;
+    }
+    .footer_wrap {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .about_children_wrap_block {
+        width: 100%;
+    }
+    .about_children_wrap_block:nth-child(2):before {
+        position: relative;
+        display: block;
+        right: auto;
+        left: 0;
+        margin-bottom: 30px;
+    }
+    .about_children_block {
+        flex-direction: column;
+    }
+    .about_children_wrap_head:before {
+        top: 16px;
+        left: 14px;
+        width: 30px;
+        height: 46px;
+        background-size: contain;
+    }
+    .about_children_wrap_head {
+        font-size: 14px;
+        padding: 68px 20px 14px;
+        background: #E31E25;
+        border-radius: 33px;
+        align-items: start;
+        min-height: initial;
+    }
+    .about_children_decor img:nth-child(1) {
+        top: 0;
+    }
+    .about_children_offer_block {
+        flex-direction: column;
+    }
+    .about_children_offer_block:before {
+        top: 30px;
+    }
+    .about_children_offer_img {
+        bottom: 0;
+        position: relative;
+    }
+    .about_children_offer_block {
+        flex-direction: column;
+        padding: 170px 25px 30px;
+    }
+    .section_title {
+        font-size: 18px;
+    }
+    .poster_decor {
+        top: 200px;
+    }
+
+    .poster_decor img {
+        max-width: 80px;
+    }
+
+    .poster_decor_img3 {
+        transform: translateX(14%) translateY(-160px);
+    }
+
+    .poster_decor_img4 {
+        transform: translateX(0) translateY(-160px);
+    }
+
+    .poster_menu .menu_list {
+        max-width: 80%;
+    }
+
+    .poster_block {
+        width: 46%;
+    }
+
+    .news_content .news_block {
+        width: 48%;
+    }
+
+    .offers_content {
+        position: relative;
+        padding: 120px 20px 20px;
+        border-radius: 20px;
+    }
+
+    .offers_content:before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background: rgb(0 0 0 / 70%);
+        border-radius: 20px;
+    }
+
+    .offers_title {
+        position: relative;
+    }
+
+    .offers_comment {
+        position: relative;
+    }
+
+    .offers_block {
+        position: relative;
+    }
+
+    .footer_head {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+
+    .footer_nav ul li {
+        padding: 0 2vw;
+    }
+
+    .menu_nav_wrap {
+        width: 67%;
+    }
+
+    .menu_nav .search {
+        width: 60%;
+    }
+
+    .spectakl_item {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        display: grid;
+    }
+    .spectakl_title {
+        margin-top: 16px;
+        padding: 0;
+    }
+    .spectakl_item_link {
+        position: relative;
+    }
+
+    .spectakl_content {
+        flex-direction: column;
+    }
+    .spectakl_about {
+        width: 100%;
+    }
+    .spectakl_text {
+        width: fit-content;
+        padding: 40px 24px 40px 24px;
+    }
+
+    .repertuar_block {
+        flex-direction: column;
+    }
+    .repertuar_block_text {
+        padding: 20px 10px 10px;
+        width: auto;
+    }
+    .repertuar_block_img {
+        width: 100%;
+        height: 30vw;
+        border-radius: 17px;
+    }
+    .repertuar_block_img img {
+        width: 100%;
+        height: auto;
+    }
+    .repertuar_btn {
+        margin-top: 20px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+    }
+
+    .people_theater_block {
+        width: 31%;
+    }
+
+    .people_theater_wrap {
+        flex-direction: column;
+    }
+    .people_theater_page_block {
+        margin-top: 40px;
+    }
+    .people_theater_page_title {
+        font-size: 26px;
+    }
+
+    .news_page_block {
+        width: 100%;
+    }
+    .news_page_block_img {
+        width: 40%;
+    }
+    .news_page_block_text {
+        width: 60%;
+    }
+
+    .news_page_decor_img img {
+        max-width: 74px;
+    }
+    .news_page_decor_img {
+        top: -76px;
+    }
+
+    .contacts_page_wrap {
+        flex-direction: column;
+    }
+    .contacts_page_left {
+        width: 100%;
+    }
+    .contacts_page_left_block {
+        width: 42%;
+    }
+    .contacts_page_right {
+        margin-top: 40px;
+        width: 100%;
+    }
+
+    .working_wrap {
+        flex-direction: column;
+    }
+    .working_cont_left {
+        width: 100%;
+    }
+
+    .album_teater_block {
+        width: 49%;
+    }
+
+    .album_teater_page_gallery {
+        width: 102%;
+        left: -1%;
+    }
+    .album_teater_page_gallery a {
+        margin: 0 5px;
+    }
+    .album_teater_page_gallery a img {
+        width: 100%;
+    }
+
+    .teatre_page_head {
+        padding-top: 38px;
+        flex-direction: column;
+    }
+    .news_teatre_link {
+        top: 0;
+    }
+    .album_teater_page {
+        padding-bottom: 50px;
+    }
+
+    .about_offers:before {
+        left: 24px;
+        width: 72px;
+        height: 70px;
+        background-size: contain;
+    }
+    .about_offers {
+        min-height: 110px;
+        padding: 14px 21px 14px 112px;
+        border-radius: 16px;
+    }
+    .about_offers p {
+        font-size: 18px;
+    }
+
+    .reviews_wrapper {
+        flex-direction: column;
+    }
+    .reviews_content {
+        width: 100%;
+    }
+    .reviews_block {
+        width: 27%;
+    }
+    .reviews_decor_img3 {
+        top: auto;
+        bottom: 26vw;
+    }
+    .reviews_decor_img1 {
+        top: -14vw;
+    }
+    .reviews_decor_img1 img {
+        width: 120px;
+    }
+    .reviews_decor_img2 {
+        top: -14vw;
+    }
+    .reviews_decor_img2 img {
+        width: 120px;
+    }
+    .reviews_decor_img3 img {
+        width: 120px;
+    }
+    .reviews_form {
+        margin-top: 50px;
+        max-width: 72%;
+    }
+    .reviews_form form .reviews_form_block textarea {
+        max-width: 100%;
+    }
+    .reviews_decor_img3 {
+        bottom: 54vw;
+    }
+    .reviews_form form {
+        padding: 20px;
+    }
+
+    .reviews_page_wrapper {
+        flex-direction: column;
+    }
+    .reviews_page_cont {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 769px) {
+    .about_block span {
+        font-size: 54px;
+        padding-right: 14px;
+        margin-right: 16px;
+    }
+    .about_block p {
+        font-size: 12px;
+    }
+    .about_text_wrapper {
+        flex-direction: column;
+    }
+    .about_text_wrap {
+        width: 100%;
+        row-gap: 0;
+    }
+    .about_text {
+        margin-bottom: 14px;
+    }
+    .about_text p b {
+        font-size: 30px;
+    }
+
+
+    .poster_block {
+        width: 46%;
+    }
+
+    .menu {
+        position: absolute;
+    }
+
+    .header .social {
+        display: none;
+    }
+    .header .search {
+        display: none;
+    }
+    .header_logo a img {
+        max-width: 50px;
+    }
+    .header_logo span {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    .header_wrap {
+        padding-bottom: 0;
+    }
+
+    .banner {
+        position: relative;
+        margin-top: 100px;
+    }
+
+    .news_content .news_block {
+        width: 100%;
+    }
+
+    .menu_nav_logo a img {
+        max-width: 50px;
+    }
+    .menu_nav_logo span {
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    .menu_nav {
+        padding-bottom: 40px;
+    }
+    .menu_nav_wrap {
+        width: fit-content;
+    }
+    .menu_nav .search {
+        width: 60%;
+        position: absolute;
+        left: 20px;
+        top: 110px;
+    }
+    .menu_nav_block {
+        margin-top: 80px;
+    }
+    .menu_nav_link {
+        flex-wrap: wrap;
+    }
+    .menu_nav_link li a {
+        font-size: 18px;
+    }
+    .menu_nav_social {
+        flex-direction: row;
+        column-gap: 20px;
+    }
+    .menu_nav_wrap {
+        padding-bottom: 0;
+    }
+    .menu_nav .menu_btn {
+        margin-bottom: 0;
+    }
+
+    .page_nav {
+        padding-bottom: 48px;
+    }
+    .page_nav ul {
+        column-gap: 6px;
+    }
+    .page_nav ul li a {
+        width: 28px;
+        height: 28px;
+        font-size: 12px;
+    }
+    .page_nav_btn {
+        width: 28px;
+        height: 28px;
+    }
+
+    .spectakl_text_title {
+        width: 100%;
+    }
+    .spectakl_text_decor {
+        margin-top: 24px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .spectakl_text_decor img {
+        width: 42%;
+    }
+    .spectakl_text:before {
+        left: 2%;
+        top: 1.8%;
+        width: 96%;
+        height: 96.6%;
+    }
+
+    .repertuar_block {
+        width: 100%;
+    }
+    .repertuar_block_img {
+        height: 54vw;
+    }
+
+    .people_theater_block {
+        width: 48%;
+    }
+
+    .people_theater_tab ul li a {
+        min-height: 46px;
+        padding: 0 12px;
+        font-size: 16px;
+    }
+
+    .news_teatre_page_wrap {
+        flex-direction: column-reverse;
+        row-gap: 20px;
+    }
+
+    .album_teater_block {
+        width: 100%;
+    }
+    .reviews_block {
+        width: 43%;
+    }
+}
+ 
+@media screen and (max-width: 600px) {
+
+}
+
+@media screen and (max-width: 587px) {
+    .about_block_img {
+        margin-right: 0;
+    }
+    .about_block {
+        flex-direction: column;
+        padding-bottom: 24px;
+    }
+    .about_block span {
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .about_block span:before {
+        left: 50%;
+        transform: translateX(-50%);
+        right: auto;
+        bottom: 0;
+        width: 70%;
+        height: 1px;
+    }
+
+
+    .banner .item1 span {
+        font-size: 8vw;
+    }
+    .banner .item1 b {
+        font-size: 12vw;
+    }
+    .banner .item2 {
+        margin-top: 2vw;
+        font-size: 5vw;
+    }
+    .poster_block {
+        width: 100%;
+        padding: 12px 2vw;
+    }
+    .news_content .news_block {
+        width: 100%;
+    }
+    .banner .banner_btn {
+        margin-top: 5vw;
+    }
+    .banner .slider_wrap {
+        width: 100%;
+    }
+    .footer_nav ul {
+        flex-wrap: wrap;
+        row-gap: 10px;
+    }
+    .footer_nav ul li {
+        padding: 0;
+        margin-right: 20px;
+        padding-right: 20px;
+    }
+
+    .people_theater_block {
+        width: 100%;
+    }
+
+    .people_theater_tab ul {
+        flex-wrap: wrap;
+    }
+    .people_theater_tab ul li {
+        width: 100%;
+    }
+    .people_theater_tab ul li a {
+        text-align: left;
+        padding: 0;
+        justify-content: left;
+    }
+    .people_theater_wrap {
+        margin-top: 10px;
+    }
+
+    .working_cont_offer {
+        padding: 56px 30px;
+    }
+    .working_cont_offer span {
+        left: 30px;
+        top: 20px;
+    }
+    .working_cont_offer:before {
+        right: -10px;
+        bottom: -44px;
+        width: 106px;
+        height: 94px;
+        background-size: contain;
+    }
+    .working_cont_img {
+        position: relative;
+        top: 36px;
+        left: 0;
+    }
+    .working_cont_img img {
+        width: 100%;
+    }
+    .working_cont_right_offer {
+        margin-top: 0;
+    }
+    .working_cont_right_offer {
+        padding: 68px 30px 0;
+        width: 220px;
+        height: 204px;
+        font-size: 18px;
+    }
+    .working_cont_bottom {
+        margin-top: 80px;
+    }
+    .reviews_block {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 440px) {
+    .header_phone {
+        display: none;
+    }
+    .banner .banner_item {
+        position: relative;
+        height: 430px;
+    }
+    .section_item {
+        font-size: 34px;
+    }
+
+    .page_nav ul li a {
+        width: 20px;
+        height: 20px;
+    }
+    .page_nav_btn {
+        width: 20px;
+        height: 20px;
+    }
+
+    .spectakl_content {
+        margin-top: 58px;
+    }
+
+    .spectakl_title {
+        font-size: 16px;
+    }
+
+    .spectakl_text_premier {
+        margin-top: 20px;
+    }
+    .spectakl_text_title span {
+        font-size: 14px;
+    }
+
+    .news_page_block {
+        flex-direction: column;
+    }
+    .news_page_block_img {
+        width: 100%;
+        position: relative;
+    }
+    .news_page_block_text {
+        width: auto;
+        margin: 0;
+    }
+
+    .contacts_page_left_block {
+        width: 100%;
+    }
+    .contacts_decor_img1 {
+        top: -74px;
+        left: 20px;
+    }
+
+    .contacts_form_wrap {
+        flex-wrap: wrap;
+        row-gap: 20px;
+    }
+    .contacts_form_wrap .contacts_form_block {
+        width: 100%;
+    }
+    .contacts_page_form:before {
+        width: 70px;
+        height: 98px;
+        background-size: contain;
+    }
+    .contacts_page_bottom {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .contacts_decor_img3 img {
+        width: 120px;
+    }
+
+    #map {
+        height: 300px;
+        border-radius: 14px;
+    }
+
+    .contacts_page_form_title {
+        font-size: 18px;
+    }
+
+    .album_teater_decor_img1 img {
+        width: 80px;
+    }
+    .album_teater_decor_img2 img {
+        width: 80px;
+    }
+
+    .about_decor_img1 {
+        top: -28vw;
+    }
+    .advantages_block {
+        width: 100%;
+    }
+    .reviews_form {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+
+}
+@media screen and (max-width: 360px) {
+
+}
+
+@media screen and (max-width: 330px) {
+
+}
