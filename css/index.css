@@ -48,3 +48,9 @@ a {
 .page_nav li a:hover {
     background: #abe1ff;
 }
+
+@media screen and (max-width: 390px) {
+    .page_nav li a {
+        width: 200px;
+    }
+}
