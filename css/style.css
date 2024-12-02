@@ -637,6 +637,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url('../img/poster/poster_decor.png') no-repeat;
   background-size: cover;
 }
+
 .poster_block {
   width: 20.4%;
   padding: 22px;
@@ -766,7 +767,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.2s linear;
 }
 .news_block:hover .news_title {
-  color: #E31E25;
+  text-decoration: underline;
 }
 .news_date {
   font-family: 'Lora', sans-serif;
@@ -1174,9 +1175,9 @@ h1, h2, h3, h4, h5, h6 {
   content: '';
   position: absolute;
   left: 1%;
-  top: 1.8%;
-  width: 98%;
-  height: 95.8%;
+  top: 1.4%;
+  width: 97.6%;
+  height: 97%;
   border: 1px solid #E0E0E0;
   border-radius: 15px;
   z-index: -1;
@@ -1218,6 +1219,22 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
 }
 
+.spectakl_decor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.spectakl_decor_img1 {
+  position: absolute;
+  left: 0;
+}
+.spectakl_decor_img2 {
+  position: absolute;
+  right: 0;
+}
+
 /**************************************************************************************/
 
 .about_children {
@@ -1244,7 +1261,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about_children_img {
   position: absolute;
-  right: 0;
+  right: -4%;
 }
 .about_children_wrapper {
   margin-top: 74px;
@@ -1302,7 +1319,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .about_children_offer {
   position: relative;
-  margin-top: 150px;
+  margin-top: 40px;
 }
 .about_children_offer_block {
   position: relative;
@@ -1316,6 +1333,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Lora', sans-serif;
   font-size: 17px;
   font-weight: 400;
+  white-space: pre-line;
   color: #ffffff;
   background: #E31E25;
   border-radius: 28px;
@@ -1326,7 +1344,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 32px;
   width: 103px;
   height: 112px;
-  background: url('../img/about_children_offer_img.svg') no-repeat;
+  background: url('../img/about_children_offer_decor.svg') no-repeat;
 }
 .about_children_offer_block:after {
   content: '';
@@ -1407,7 +1425,6 @@ h1, h2, h3, h4, h5, h6 {
   column-gap: 1%;
   row-gap: 20px;
   padding-bottom: 50px;
-  border-bottom: 1px solid #C4C5C5;
 }
 .repertuar_block {
   position: relative;
@@ -1482,6 +1499,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 400;
   color: #E31E25;
+  transition: all 0.2s linear;
+}
+.repertuar_btn:hover {
+  color: #BC181E;
 }
 .repertuar_btn:after {
   content: '';
@@ -1491,6 +1512,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 8px;
   width: 28px;
   background: url('../img/repertuar_btn_up.svg') no-repeat;
+  transition: all 0.2s linear;
+}
+.repertuar_btn:hover:after {
+  background: url('../img/repertuar_btn_up_hover.svg') no-repeat;
 }
 .repertuar_block_img {
   position: relative;
@@ -1506,6 +1531,31 @@ h1, h2, h3, h4, h5, h6 {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
+}
+
+.repertuar_decor {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.repertuar_decor_img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.repertuar_decor_img2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.repertuar_decor_img3 {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  transform: translateX(-220%);
 }
 
 /**************************************************************************************/
@@ -1682,12 +1732,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #E31E25;
   text-decoration: underline;
 }
+.people_theater_page_spectakl ul li a:hover {
+  text-decoration: none;
+}
 
 /**************************************************************************************/
 
 .news_page {
   margin-top: 180px;
-  padding-bottom: 50px;
 }
 .news_page_content {
   margin-top: 40px;
@@ -1697,7 +1749,6 @@ h1, h2, h3, h4, h5, h6 {
   column-gap: 1%;
   row-gap: 30px;
   padding-bottom: 50px;
-  border-bottom: 1px solid #C4C5C5;
 }
 .news_page_block {
   position: relative;
@@ -1756,6 +1807,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 400;
   color: #E31E25;
+  transition: all 0.2s linear;
+}
+.news_page_block_link:hover {
+  color: #BC181E;
 }
 .news_page_block_link:after {
   content: '';
@@ -1764,6 +1819,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 30px;
   height: 8px;
   background: url('../img/news_page_block_link.svg') no-repeat;
+  transition: all 0.2s linear;
+}
+.news_page_block_link:hover:after {
+  background: url('../img/news_page_block_link_hover.svg') no-repeat;
 }
 .news_page_decor {
   position: absolute;
@@ -1793,7 +1852,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   column-gap: 2%;
-  row-gap: 30px;
+  row-gap: 10px;
 }
 .contacts_page_left_block {
   width: 49%;
@@ -1812,7 +1871,6 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
 }
 .contacts_page_left_block .contacts_page_phone {
-  margin-top: 12px;
   font-family: 'Akrobat', sans-serif;
   font-size: 17px;
   font-weight: 400;
@@ -1828,6 +1886,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .contacts_page_left .section_title {
   width: 100%;
+  margin-top: 20px;
 }
 
 .contacts_page_right {
@@ -1846,7 +1905,16 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 18px;
   width: 136px;
   height: 164px;
-  background: url('../img/contacts_form_decor.png') no-repeat;
+  background: url('../img/contacts_form_decor1.png') no-repeat;
+}
+.contacts_page_form:after {
+  content: '';
+  position: absolute;
+  top: -119px;
+  right: 10px;
+  width: 158px;
+  height: 151px;
+  background: url('../img/contacts_form_decor2.svg') no-repeat;
 }
 .contacts_page_form_title {
   font-family: 'Lora', sans-serif;
@@ -2040,7 +2108,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 .working_cont_left {
-  width: 60%;
+  width: 72%;
 }
 .working_cont_item {
   font-family: 'Lora', sans-serif;
@@ -2049,7 +2117,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #121212;
 }
 .working_cont_title {
-  margin-top: 12px;
   margin-bottom: 32px;
   font-family: 'Akrobat', sans-serif;
   font-size: 17px;
@@ -2169,6 +2236,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
   font-weight: 400;
   color: #E31E25;
+  transition: all 0.2s linear;
+}
+.news_teatre_link:hover {
+  color: #BC181E;
 }
 .news_teatre_link:before {
   content: '';
@@ -2177,6 +2248,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 41px;
   height: 8px;
   background: url('../img/people_theater_page_link.svg') no-repeat;
+  ransition: all 0.2s linear;
+}
+.news_teatre_link:hover:before {
+  background: url('../img/people_theater_page_link_hover.svg') no-repeat;
 }
 
 .news_teatre_page_wrap {
@@ -2262,7 +2337,7 @@ h1, h2, h3, h4, h5, h6 {
 .album_teater_decor_img2 {
   position: absolute;
   top: 70px;
-  right: -6%;
+  right: -9%;
 }
 
 /**************************************************************************************/
@@ -2287,11 +2362,38 @@ h1, h2, h3, h4, h5, h6 {
   white-space: pre-line;
 }
 .album_teater_page_gallery {
-  margin-top: 12px;
+  margin-top: 20px;
   display: flex;
   flex-wrap: wrap;
   column-gap: 35px;
   row-gap: 38px;
+}
+
+.album_teater_page_gallery a {
+  position: relative;
+  overflow: hidden;
+  border-radius: 7px;
+}
+
+.album_teater_page_gallery a:before {
+  content: '';
+  position: absolute;
+  width: 87%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 87%;
+  border-radius: 6px;
+  border: 1px solid #E31E25;
+  transition: all 0.2s linear;
+}
+.album_teater_page_gallery a:hover:before {
+  border-color: transparent;
+}
+
+.album_teater_page_gallery a img {
+  width: auto;
+  height: 100%;
 }
 
 .album_teater_page_gallery .slick-dots {
@@ -2364,6 +2466,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #1F0600;
 }
 .about_block.about_block1 {
   transform: translateX(10%);
@@ -2482,7 +2585,7 @@ h1, h2, h3, h4, h5, h6 {
 .about_decor_img3 {
   position: absolute;
   left: 12%;
-  bottom: 10vw;
+  bottom: 18vw;
 }
 
 /**************************************************************************************/
@@ -2568,6 +2671,10 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-weight: 400;
   color: #E31E25;
+  transition: all 0.2s linear;
+}
+.reviews_link:hover {
+  color: #BC181E;
 }
 .reviews_link:after {
   content: '';
@@ -2576,6 +2683,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 28px;
   height: 8px;
   background: url(../img/reviews_link.svg) no-repeat;
+  transition: all 0.2s linear;
+}
+.reviews_link:hover:after {
+  background: url(../img/reviews_link_hover.svg) no-repeat;
 }
 
 .reviews_form {
@@ -2685,6 +2796,9 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   color: #E31E25;
 }
+.reviews_page_link:hover {
+  color: #BC181E;
+}
 .reviews_page_link:before {
   content: '';
   position: relative;
@@ -2692,6 +2806,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 42px;
   height: 8px;
   background: url(../img/reviews_page_link.svg) no-repeat;
+}
+.reviews_page_link:hover:before {
+  background: url(../img/reviews_page_link_hover.svg) no-repeat;
 }
 
 .reviews_page_block {
@@ -2724,3 +2841,6 @@ h1, h2, h3, h4, h5, h6 {
   bottom: 2vw;
   right: 28%;
 }
+
+
+
