@@ -273,3 +273,18 @@ $(document).ready(function () {
         });
     }
 })
+
+$(document).ready(function () {
+    $('[data-fancybox="page1"]').fancybox({
+        toolbar: false,
+        arrows: false,
+        afterLoad: function(instance, current) {
+            if (instance.group.length > 1 && current.$content) {
+                current.$content.append('<button class="fancybox-button fancybox-button--arrow_right next" data-fancybox-next>' + '→' + '</button>' +
+                    '<button data-fancybox-prev class="fancybox-button fancybox-button--arrow_left prev">' + '←' + '</button>' +
+                    '<button data-fancybox-close data-fancybox-close="" class="fancybox-button fancybox-button--close close" title="Close">' + '</button>');
+            }
+        }
+
+    });
+})
