@@ -2932,3 +2932,11 @@ h1, h2, h3, h4, h5, h6 {
 .fancybox-container .prev {
   left: 20px;
 }
+
+.ymaps-layers-pane {
+	filter: grayscale(1);
+	-ms-filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+}
