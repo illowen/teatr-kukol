@@ -183,10 +183,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 38px;
   background: url('../img/social_btn_bg.svg') no-repeat;
-  transition: all 0.2s linear;
 }
 .social a:hover span {
-  background: url('../img/social_btn_bg_hover.svg') no-repeat;
+  filter: invert(12%) sepia(76%) saturate(6068%) hue-rotate(352deg) brightness(105%) contrast(86%);
 }
 .social a.ico4 span {
   background: url('../img/social_btn_bg_red.svg') no-repeat;
@@ -196,26 +195,19 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   width: 30px;
   height: 30px;
-  transition: all 0.2s linear;
 }
 
 .social a.ico1 span:before {
   background: url('../img/vk.svg') 50% 50% no-repeat;
 }
-.social a.ico1:hover span:before {
-  background: url('../img/vk_hover.svg') 50% 50% no-repeat;
+.social a:hover span:before {
+  filter: invert(12%) sepia(76%) saturate(6068%) hue-rotate(352deg) brightness(105%) contrast(86%);
 }
 .social a.ico2 span:before {
   background: url('../img/tg.svg') 50% 50% no-repeat;
 }
-.social a.ico2:hover span:before {
-  background: url('../img/tg_hover.svg') 50% 50% no-repeat;
-}
 .social a.ico3 span:before {
   background: url('../img/social_ico3.svg') 50% 50% no-repeat;
-}
-.social a.ico3:hover span:before {
-  background: url('../img/social_ico3_hover.svg') 50% 50% no-repeat;
 }
 .social a.ico4 span:before {
   background: url('../img/social_ico4.svg') 50% 50% no-repeat;
@@ -247,10 +239,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 40px;
   height: 40px;
   background: url('../img/phone_ico.svg') no-repeat;
-  transition: all 0.2s linear;
 }
 .header_phone:hover:before {
-  background: url('../img/phone_ico_hover.svg') no-repeat;
+  filter: invert(12%) sepia(76%) saturate(6068%) hue-rotate(352deg) brightness(105%) contrast(86%);
 }
 .header_phone span {
   font-size: 17px;
@@ -275,10 +266,9 @@ h1, h2, h3, h4, h5, h6 {
   height: 42px;
   background: url('../img/menu_btn_bg.svg') no-repeat;
   cursor: pointer;
-  transition: all 0.2s linear;
 }
 .menu_btn:hover {
-  background: url('../img/menu_btn_bg_hover.svg') no-repeat;
+  filter: invert(12%) sepia(76%) saturate(6068%) hue-rotate(352deg) brightness(105%) contrast(86%);
 }
 .menu_btn p {
   font-size: 18px;
