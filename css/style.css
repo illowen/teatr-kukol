@@ -390,12 +390,18 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 10px;
   background: url('../img/menu_btn_bg_wt.svg') no-repeat;
 }
+.menu_nav .menu_btn:hover {
+  filter: initial;
+}
 .menu_nav .menu_btn p {
   color: #ffffff;
 }
 .menu_nav .menu_btn span {
   width: 18px;
   background: url('../img/menu_btn_close.svg') no-repeat;
+}
+.menu_nav .menu_btn:hover span {
+  filter: initial;
 }
 .menu_nav_block {
   margin-top: 46px;
