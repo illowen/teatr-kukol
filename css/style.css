@@ -273,7 +273,6 @@ h1, h2, h3, h4, h5, h6 {
 .menu_btn p {
   font-size: 18px;
   font-weight: 500;
-  transition: all 0.2s linear;
 }
 .menu_btn:hover p {
   color: #E31E25;
@@ -283,10 +282,9 @@ h1, h2, h3, h4, h5, h6 {
   width: 26px;
   height: 15px;
   background: url('../img/menu_btn.svg') no-repeat;
-  transition: all 0.2s linear;
 }
 .menu_btn:hover span {
-  background: url('../img/menu_btn_hover.svg') no-repeat;
+  filter: invert(12%) sepia(76%) saturate(6068%) hue-rotate(352deg) brightness(105%) contrast(86%);
 }
 
 .lang {
