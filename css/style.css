@@ -1044,49 +1044,9 @@ h1, h2, h3, h4, h5, h6 {
   background: url('../img/btn_scroll.svg') no-repeat;
 }
 
-.btn_scroll:hover {
-  animation: float 1.8s ease-in-out both infinite;
-}
 .btn_scroll:hover:before {
   animation: floatText 1.8s ease-in-out both infinite;
   animation-delay: 0.05s;
-}
-
-@keyframes shake {
-  25% {
-    transform: rotate(3deg);
-  }
-  50% {
-    transform: rotate(-3deg);
-  }
-  100% {
-    transform: rotate(0deg);
-  }
-}
-@keyframes shakeText {
-  0% {
-    right: 4px;
-  }
-  33% {
-    right: -4px;
-  }
-  66% {
-    right: 4px;
-  }
-  100% {
-    right: 0;
-  }
-}
-@keyframes float {
-  0% {
-    transform: translatey(-5px);
-  }
-  50% {
-    transform: translatey(5px);
-  }
-  100% {
-    transform: translatey(-5px);
-  }
 }
 @keyframes floatText {
   0% {
