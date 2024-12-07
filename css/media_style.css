@@ -95,6 +95,9 @@
     .about_decor_img3 img {
         width: 120px;
     }
+    .offers_comment {
+        max-width: 55%;
+    }
 }
 
 @media screen and (max-width: 1440px) {
