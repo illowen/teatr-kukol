@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 0;
   width: 50%;
   height: 100%;
-  background: url('../img/banner_slider/banner_decor/banner_item_before.png') no-repeat;
+  background: url('../img/banner_slider/banner_decor/banner_item_before.png') 100% 50% no-repeat;
   z-index: 2;
 }
 
