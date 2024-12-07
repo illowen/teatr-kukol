@@ -392,7 +392,8 @@ h1, h2, h3, h4, h5, h6 {
   background: url('../img/menu_btn_bg_wt.svg') no-repeat;
 }
 .menu_nav .menu_btn:hover {
-  filter: invert(13%) sepia(64%) saturate(4586%) hue-rotate(347deg) brightness(71%) contrast(103%);
+  filter: none;
+  opacity: 0.8;
 }
 .menu_nav .menu_btn p {
   color: #ffffff;
