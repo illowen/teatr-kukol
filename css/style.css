@@ -729,8 +729,9 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 64px;
   margin-top: 34px;
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   flex-wrap: wrap;
+  column-gap: 1%;
   row-gap: 22px;
 }
 .poster_content:before {
