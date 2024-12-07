@@ -402,6 +402,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 18px;
   background: url('../img/menu_btn_close.svg') no-repeat;
 }
+.menu_nav .menu_btn:hover span {
+  filter: none;
+  opacity: 0.8;
+}
 .menu_nav_block {
   margin-top: 46px;
   display: flex;
