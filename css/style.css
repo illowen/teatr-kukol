@@ -2243,6 +2243,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #map {
+  position: relative;
   margin-top: 20px;
   width: 100%;
   height: 462px;
@@ -2250,6 +2251,20 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   background: url(../img/map.jpg) 50% 50% no-repeat;
   background-size: cover;
+}
+#map:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  z-index: 0;
+}
+#map.active:before {
+  background: url(../img/map.jpg) 50% 50% no-repeat;
+  z-index: 2;
 }
 .contacts_page_bottom {
   margin-top: 46px;
