@@ -484,6 +484,15 @@ h1, h2, h3, h4, h5, h6 {
   background: url('../img/banner_slider/banner_decor/banner_item_before.png') 100% 50% no-repeat;
   z-index: 2;
 }
+.banner .banner_item:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background: #E31E25;
+}
 
 .banner .banner_item.slide1 {
   background: url('../img/banner_slider/banner_img/bg1.jpg') 100% 0 no-repeat #000000;
@@ -704,23 +713,25 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: -17px;
   width: 34px;
   height: 34px;
-  background: url('../img/poster/menu_btn_arrows.svg') 50% 50% no-repeat;
   border: 2px solid #E31E25;
   border-radius: 50px;
   font-size: 0;
   cursor: pointer;
   transition: all 0.2s linear;
 }
-.poster_menu .menu_list .slick-arrow:hover {
-  background: url('../img/poster/menu_btn_arrows_hover.svg') 50% 50% no-repeat #E31E25;
-}
 
 .poster_menu .menu_list .slick-prev {
   left: -38px;
+  background: url('../img/poster/menu_btn_arrows.svg') 50% 50% no-repeat;
 }
 .poster_menu .menu_list .slick-next {
   right: -38px;
   transform: rotate(180deg);
+  background: url('../img/poster/menu_btn_arrows.svg') 48% 50% no-repeat;
+}
+
+.poster_menu .menu_list .slick-arrow:hover {
+  background: url('../img/poster/menu_btn_arrows_hover.svg') 50% 50% no-repeat #E31E25;
 }
 
 .poster_content {
@@ -788,6 +799,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
 }
 .poster_block_item {
+  display: block;
   margin-top: 10px;
   font-size: 23px;
   font-weight: 600;
@@ -795,6 +807,9 @@ h1, h2, h3, h4, h5, h6 {
   color: #E31E25;
   white-space: pre-line;
   min-height: 78px;
+}
+.poster_block_item:hover {
+  text-decoration: underline;
 }
 .poster_block_img {
   margin-top: 14px;
@@ -872,9 +887,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #000000;
   transition: all 0.2s linear;
 }
-.news_block:hover .news_title {
-  text-decoration: underline;
-}
 .news_date {
   font-family: 'Lora', sans-serif;
   font-size: 13px;
@@ -939,7 +951,13 @@ h1, h2, h3, h4, h5, h6 {
   color: #E31E25;
   font-size: 20px;
   font-weight: 400;
+  border: 1px solid transparent;
   border-radius: 8px;
+}
+.offers .offers_btn:hover {
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 /**************************************************************************************/
@@ -978,6 +996,11 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 17px;
   font-weight: 400;
   color: #000000;
+  transition: all 0.2s linear;
+}
+
+.footer_nav ul li a:hover {
+  color: #E31E25;
 }
 
 .footer_wrapper {
@@ -1626,7 +1649,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 14px;
   height: 14px;
   background: url('../img/repertuar_block_text_time_ico.svg') no-repeat;
- }
+}
 .repertuar_block_text_head .spectakl_age_res {
   top: auto;
 }
@@ -1988,6 +2011,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .news_page_block_link:hover:after {
   background: url('../img/news_page_block_link_hover.svg') no-repeat;
+  transform: translateX(5px);
 }
 .news_page_decor {
   position: absolute;
@@ -2105,7 +2129,7 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
 }
 .contacts_form_wrap .contacts_form_block {
-  width: 30%;
+  width: 31%;
 }
 .contacts_form_block label {
   display: inline-block;
@@ -2271,9 +2295,10 @@ h1, h2, h3, h4, h5, h6 {
 .working_wrap {
   margin-top: 60px;
   display: flex;
+  justify-content: space-between;
 }
 .working_cont_left {
-  width: 72%;
+  width: 70%;
 }
 .working_cont_item {
   font-family: 'Lora', sans-serif;
@@ -2336,12 +2361,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .working_cont_bottom {
   margin-top: 35px;
-}
-.working_cont_title {
-  font-family: 'Lora', sans-serif;
-  font-size: 17px;
-  font-weight: 400;
-  white-space: pre-line;
 }
 
 .working_cont_right_offer {
@@ -2765,7 +2784,7 @@ h1, h2, h3, h4, h5, h6 {
 .about_decor_img3 {
   position: absolute;
   left: 12%;
-  bottom: 18vw;
+  bottom: 28vw;
 }
 
 /**************************************************************************************/
@@ -2867,6 +2886,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .reviews_link:hover:after {
   background: url(../img/reviews_link_hover.svg) no-repeat;
+  transform: translateX(5px);
 }
 
 .reviews_form {
