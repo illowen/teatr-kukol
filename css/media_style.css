@@ -101,6 +101,10 @@
 }
 
 @media screen and (max-width: 1440px) {
+    .spectakl_gallery {
+        width: 94%;
+        left: 3%;
+    }
     .container {
         max-width: 100%;
         width: auto;
@@ -236,6 +240,10 @@
 }
 
 @media screen and (max-width: 991px) {
+    .spectakl_gallery {
+        width: 100%;
+        left: 0;
+    }
     .about_children_wrap_block {
         width: 100%;
     }
@@ -554,6 +562,9 @@
 }
 
 @media screen and (max-width: 769px) {
+    .banner .banner_item:after {
+        display: none;
+    }
     .lang a {
         display: block;
         padding: 5px 0 10px;
@@ -750,7 +761,7 @@
         margin-top: 123px;
     }
 }
- 
+
 @media screen and (max-width: 600px) {
 
 }
