@@ -127,8 +127,6 @@ $(document).ready(function () {
                 settings: {
                     slidesToShow: 6,
                     slidesToScroll: 2,
-                    dots: true,
-                    arrows: false,
                 }
             },
             {
@@ -152,8 +150,8 @@ $(document).ready(function () {
             {
                 breakpoint: 480,
                 settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1,
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
                     dots: true,
                     arrows: false,
                 }
@@ -252,6 +250,21 @@ function initYandexMapWaitOnHover() {
 $(function () {
     initYandexMapWaitOnHover();
 });
+
+$(document).ready(function () {
+    //$("#map").on("click", function (e) {
+    //    $(this).toggleClass("active");
+    //});
+
+    $(document).on({
+        mouseenter: function () {
+            $(this).removeClass("active");
+        },
+        mouseleave: function () {
+            $(this).addClass("active");
+        }
+    }, "#map");
+})
 
 $(document).ready(function () {
     if ($(window).width() < 991) {
