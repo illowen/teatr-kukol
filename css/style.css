@@ -305,13 +305,13 @@ h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   text-align: center;
   color: #54483C;
-  background: url(../img/lang_btn_bg_black.png) 50% 0 no-repeat;
+  background: url(../img/lang_btn_bg_black.svg) 50% 100% no-repeat;
   transition: none;
 }
 .lang a.show,
 .lang a:hover {
   color: #E31E25;
-  background: url(../img/lang_btn_bg_red.png) 50% 0 no-repeat;
+  background: url(../img/lang_btn_bg_red.svg) 50% 100% no-repeat;
 }
 
 /**************************************************************************************/
@@ -873,6 +873,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   column-gap: 10px;
+}
+.news_content .news_block:hover .news_title {
+  text-decoration: underline;
 }
 .news_text {
   display: flex;
@@ -2322,13 +2325,14 @@ h1, h2, h3, h4, h5, h6 {
   color: #121212;
 }
 .working_cont_title {
+  margin-top: 14px;
   margin-bottom: 32px;
   font-family: 'Akrobat', sans-serif;
   font-size: 17px;
   font-weight: 400;
 }
 .working_cont_list {
-  margin-top: 20px;
+  margin-top: 38px;
 }
 .working_cont_list ul {
   padding-left: 0;
@@ -2336,7 +2340,7 @@ h1, h2, h3, h4, h5, h6 {
 .working_cont_list ul li {
   position: relative;
   padding-left: 60px;
-  margin-bottom: 18px;
+  margin-bottom: 30px;
   font-family: 'Akrobat', sans-serif;
   font-size: 17px;
   font-weight: 400;
@@ -2379,10 +2383,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .working_cont_right_offer {
-  margin-top: 320px;
-  padding: 95px 30px 0;
-  width: 324px;
-  height: 280px;
+  position: relative;
+  margin-top: 238px;
+  padding: 104px 30px 0;
+  line-height: 144%;
+  width: 355px;
+  height: 305px;
   font-family: 'Lora', sans-serif;
   font-size: 25px;
   font-weight: 400;
@@ -2391,15 +2397,17 @@ h1, h2, h3, h4, h5, h6 {
   background: url(../img/working_offer_bg.png) no-repeat;
   background-size: contain;
   white-space: pre-line;
+  z-index: 2;
 }
 
 .working_cont_right {
   position: relative;
+  width: 27%;
 }
 .working_cont_img {
   position: absolute;
-  top: 0;
-  left: 4%;
+  top: -3vw;
+  left: -3%;
 }
 
 /**************************************************************************************/
