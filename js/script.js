@@ -301,3 +301,11 @@ $(document).ready(function () {
 
     });
 })
+
+$(document).ready(function () {
+    if ($(window).width() < 1550) {
+        $(".search").click(function () {
+            $(this).toggleClass("show");
+        });
+    }
+})
