@@ -55,9 +55,29 @@
 }
 
 @media screen and (max-width: 1550px) {
+    .header .search,
+    .footer .search {
+        position: relative;
+    }
+    .header .search input {
+        background: #ffffff;
+    }
+    .footer .search input {
+        background: #F5F7F8;
+    }
     .header .search input,
     .footer .search input {
-        display: none;
+        position: absolute;
+        right: 50px;
+        width: 0;
+        padding-left: 0;
+        padding-right: 0;
+        transition: all 0.2s linear;
+    }
+    .header .search.show input,
+    .footer .search.show input {
+        width: 140px;
+        padding-left: 10px;
     }
     .header_wrap {
         width: auto;
