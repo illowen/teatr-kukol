@@ -366,6 +366,7 @@
 
     .offers_comment {
         position: relative;
+        max-width: 100%;
     }
 
     .offers_block {
@@ -585,6 +586,9 @@
 }
 
 @media screen and (max-width: 769px) {
+    .working_cont_right {
+        width: 100%;
+    }
     .banner .banner_item:after {
         display: none;
     }
@@ -790,7 +794,6 @@
 }
 
 @media screen and (max-width: 587px) {
-
     .banner .banner_item:before {
         top: auto;
         bottom: -40px;
@@ -975,8 +978,20 @@
 }
 
 @media screen and (max-width: 440px) {
+    .banner .item1 span {
+        font-size: 7vw;
+    }
+    .banner .item1 b {
+        font-size: 10vw;
+    }
+    .banner .item2 {
+        font-size: 6vw;
+    }
     .header_phone {
         display: none;
+    }
+    .banner .banner_content {
+        padding-top: 48vw;
     }
     .section_item {
         font-size: 34px;
@@ -1092,6 +1107,52 @@
 
     .select .selected {
         font-size: 18px;
+    }
+
+    .footer .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_head {
+        order: 3;
+        padding-bottom: 100px;
+    }
+    .footer_wrapper {
+        order: 2;
+        padding-bottom: 27px;
+    }
+    .footer_nav ul {
+        padding-top: 27px;
+        border-top: 1px solid #E5E6E7;
+    }
+    .footer_nav ul li {
+        width: 50%;
+        padding: 0;
+        margin: 0;
+        border: none;
+    }
+    .btn_scroll span {
+        display: none;
+    }
+    .btn_scroll {
+        position: absolute;
+        right: 16px;
+        bottom: 50px;
+    }
+    .footer .social {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer .search {
+        position: absolute;
+        bottom: 50px;
+        width: -webkit-fill-available;
+    }
+    .footer .search input {
+        position: relative;
+        right: auto;
+        left: 0;
+        width: 234px;
     }
 }
 
