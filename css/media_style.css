@@ -58,6 +58,7 @@
     .header .search,
     .footer .search {
         position: relative;
+        cursor: pointer;
     }
     .header .search input {
         background: #ffffff;
