@@ -25,7 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   width: 100%;
-  max-width: 1400px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header_wrap {
-  width: 82%;
+  width: 81%;
   display: flex;
   justify-content: space-between;
   align-items: end;
@@ -125,7 +125,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .menu {
   display: flex;
-  column-gap: 34px;
+  column-gap: 27px;
+  margin-right: 10px;
 }
 
 .menu a {
